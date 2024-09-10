@@ -1,0 +1,21 @@
+.post-item {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  gap: 12px;
+  background: white;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.post-item button {
+  max-width: 100px;
+  
+}
+
+.post-item h2 {
+  cursor: pointer;
+}

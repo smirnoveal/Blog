@@ -1,0 +1,21 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form select {
+  padding: 10px;
+  font-size: 16px;
+  align-items: center;
+  justify-self: center;
+
+}
+
+form button {
+  align-self: center;
+  align-items: center;
+  justify-self: center;
+}

@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(90deg, #04f7b2 0%, #66d4a6 100%);
+  padding: 60px;
+  color: rgb(16, 15, 15);
+  text-align: center;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.linkBtn {
+  background-color: transparent;
+  color: rgb(18, 6, 1);
+  align-items: center;
+  justify-self: center;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 16px 18px;
+  background-color: #04f7b2;
+  color: rgb(8, 3, 20);
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #ec6f49;
+  color: #C7C7D1;
+}
+
+.white {
+  background-color: #e7e1e10f !important;
+  color: #404041;
+}
+
+.white:hover {
+  background-color: #07070733 !important;
+  color: #070707;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+
+.filter {
+  padding: 20px;
+}
+
+.pagination {
+  padding: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.current {
+  background-color: #04f7b2;
+}
